@@ -1,1 +1,45 @@
-p{background-color: blue;color: bisque;}
+body{
+    background-color: blue;
+}
+
+h1{
+    text-align: center;
+    border: 10px;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+    border: 10px;
+    padding: 5px;
+}
+
+p{
+color: bisque;
+text-align: center;}
+
+
+em strong{
+text-decoration: double;
+color: brown;
+}
+
+strong{
+    color: black;
+
+}
+
+#banner{
+    width: 100%;
+    text-align: center;
+}
+#mision{
+    font-size: 20px;
+}
+
+.items{
+    font-size: 30px;
+    color: chartreuse;
+}
+.diferencias{
+    align-items: ;
+}
