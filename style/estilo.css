@@ -1,8 +1,13 @@
-body{
-    background-color: blue;
-}
+#dif{
+    background-color:#ffffff;
+    }
 
+#principal{
+        background-color: #CCCCCC;
+        padding: 20px;
+    }
 h1{
+    
     text-align: center;
     border: 10px;
     padding: 5px;
@@ -11,10 +16,14 @@ h2{
     text-align: center;
     border: 10px;
     padding: 5px;
+    
 }
 
+
+
 p{
-color: bisque;
+    
+color: rgb(43, 7, 143);
 text-align: center;}
 
 
@@ -25,7 +34,6 @@ color: brown;
 
 strong{
     color: black;
-
 }
 
 #banner{
@@ -40,6 +48,11 @@ strong{
     font-size: 30px;
     color: chartreuse;
 }
-.diferencias{
-    align-items: ;
+
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
