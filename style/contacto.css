@@ -101,7 +101,7 @@ footer{
 #formulario{
     margin: 40px 0;
 }
-#formulario label{
+#formulario label, #formulario legend{
     display: block;
     margin: 0 0 10px;
 }
@@ -110,7 +110,40 @@ footer{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    color: #e21717;
-    width: 50%;
+    width
+    : 50%;
+}
+#check{
+    margin: 20px auto;
+}
+.enviar{
+    width: 40%;
+    color: blue;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px ;
+    font-weight: bold;
+    
+    
+}
+.enviar:hover{
+    background-color: #e21717;
+    transition: 1s all;
+    
+    cursor: pointer;
+    transform: scale(1.2) rotate(-45deg);
+}
+table{
+    margin: 40px;
 }
 
+thead{
+    background-color: #555555;
+    color: cornflowerblue;
+    border: 1px solid black;
+}
+tr, td,th{
+    border:2px solid black;
+    padding:8px 15px;
+}
